@@ -1,0 +1,16 @@
+[package]
+name = "gtk_frontend"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gtk = { version = "0.4.7", package = "gtk4", features = ["v4_4"]}
+gdk-pixbuf = "0.15.10"
+glib-sys = "0.15.10"
+libc = "0.2"
+gio-sys = "^0"
+computer_vision = { path = ".." }
+lazy_static = "*"
+image = "0.24.1"
